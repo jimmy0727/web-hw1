@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>台中市景點推薦</title>
+
+	<style type="text/css">
+
+		.container { margin:0 auto; width:1024px }  <!--/*讓東西置中*/
+		
+		.large_font { font-size: 35px ; }  <!--/* 字體大小統一35*/
+		.large_font:hover { font-size: 40px; background-color:#FF9797	; color: white;} 
+		<!--/* 在上一個自訂義動作中去新增動態的改變，將文字變大成40，背景變成黑色，文字顏色白色 */
+		
+		.super_largn_font {font-size: 40px ; padding-top: 50px ; } 
+		 <!--/* 設定主標題文字大小40，padding-top是距離最上端隔多遠 */
+		
+		td { padding: 10px ; text-align: center ;}  <!--/* 統一設定所有的td和td間圖片和文字的間隔差10，字體統一致中 */
+
+		.r_corner { border-radius: 400px; width: 400px; height: 400px;} 
+		<!--/* 設定圖片圓角的角度，因為要讓4個邊的半徑一樣，這樣圖片就會是一個完整的圓 */
+		
+		.r_corner2 { border-radius: 20px ;} <!--/* 設定主標題的圖片 */
+
+		.banner:hover {opacity: 0.5 ;} <!--/* 設定主標題的圖片隱形程度 */
+		.r_img:hover {opacity: 0.8 ; rotate: 5deg ;} <!--/* 設定圖片的隱形程度 */
+		
+		.navbar {
+			overflow: hidden;
+			background-color: black		;
+			position: fixed; /* Set the navbar to fixed position */
+			top: 0; /* 距離頁面最上緣有多少公分 */
+			width: 100%; /* Full width */
+		}
+
+		/* Links inside the navbar */
+		.navbar a {
+			float: left;
+			display: white;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 12px 20px; /*前面是設置橫條寬度，後面是設置每一個快捷鍵的距離*/
+			text-decoration: none;
+			font-size:17px; /*快捷鍵的字體大小*/
+		}
+
+		/* Change background on mouse-over */
+		.navbar a:hover {
+ 			 background: #ddd;
+ 			 color: black; 
+ 			 /*navbar的三段都是在用標頭列的變化和快捷鍵*/
+	</style> 
+
+
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="#home">首頁</a>
+  <a href="#s1">台中國家歌劇院</a>
+  <a href="#s2">臺中州廳</a>
+  <a href="#s3">審計新村</a>
+</div>
+
+<div id="home" class="container"> 
+	<table>
+		
+		<tr>
+			<td class= "super_largn_font" colspan="2" align="center"> 
+				<!colspan是跨欄置中，數字代表幾欄要合併，align是文字置中，font size是字體大小5>
+				<b>台中市景點推薦</b>
+			</td>  
+		</tr>
+		
+		<tr>
+			<td colspan="2" align="center">
+				<img class="r_corner2 banner" src="00taichung.jpeg" width="1024px" height="300px" > 
+				<! class放前面預設的css動作或是統一的設置，src放圖片的檔名，要讓檔案和照片在相同的資料夾中，width是寬度，height是高度，rounded corners是圓角>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" align="center">
+				<p> <font class="large_font">  臺中市  </font> </p>
+				<p>臺中市，通稱臺中，簡稱「中」，為中華民國直轄市，臺灣六都之一，也是中臺灣唯一的直轄市。
+					<br>周邊與臺灣省的六個縣相鄰，北鄰苗栗縣、新竹縣，南鄰彰化縣、南投縣，東隔中央山脈與花蓮縣相鄰，
+					<br>東北以中央山脈和雪山山脈毗鄰宜蘭縣，西臨臺灣海峽。</p>
+			</td>
+		</tr>
+		
+
+		<tr align="center">
+			<td>
+				<img class="r_corner r_img" src="01.jpeg" width="480px" height="271" >
+			</td>
+			
+			<td id="s1">
+				<p> <font class="large_font" > 台中國家歌劇院 </font> </p>
+				<p>台中國家歌劇院位於台中市西屯區，是極具特色的大型公有展演空間，由日本建築師伊東豊雄設計，以人類最原始的「洞窟」、「地穴」的概念設計成世界獨一無二的美聲涵洞曲牆建築，歷時五年時間完成、耗資43.6億元，終在2014年11月23日落成啟用，內部規劃有大劇院、中劇院及小型實驗劇場，共可容納約三千餘人。</p>
+				圖：台中國家歌劇院白天景色 &nbsp; &nbsp; &nbsp; 所在位置：台中市西屯區惠來路二段101號  
+					<!&nbsp代表的是空格符號，用一次代表一個>
+			</td>
+		</tr>
+
+		<tr align="center" id="s2">
+			<td>
+				<p> <font class="large_font" > 臺中州廳 </font> </p>
+				<p>臺中州廳位於台中市西區，為一座國定古蹟，二戰後由台中市政府遷入辦公由於該建築原為日治時期的臺中州廳（即「州政府」），因而沿用此稱呼。周邊鄰近台中文學公園、台中刑務所演武場、宮原眼科等熱門景點。</p>
+				圖：臺中州廳 &nbsp; &nbsp; &nbsp; 所在位置：台中市西區民權路99號</td>
+			
+			<td>
+				<img class="r_corner r_img" src="02.jpeg" width="540px" height="305">
+			</td>
+
+		</tr>
+		<tr align="center">
+			<td id="s3">
+				<img class="r_corner r_img"  src="03.jpeg" width="480px" height="320">
+			</td>
+			
+			<td>
+				<p> <font class="large_font"> 審計新村 </font></p>
+				<p>審計新村位於台中市西區，原為臺灣省政府審計處員工宿舍，在凍省之後成了閒置空間荒廢多年，近年配合台中市政府勞工局「摘星青年、築夢台中」創業基地進駐計畫，重新規劃轉型成為創業基地與文創園區。</p>
+				圖：審計新村 &nbsp; &nbsp; &nbsp; 所在位置：台中市西區民生路368巷</td>
+		</tr>
+
+		<tr><td colspan="2"> <br><br><br><br><br><br><br><br> </td></tr>
+		
+		<tr>
+			<td colspan="2" style="background:black	; color:white ;" align="center">
+				<h1> 靜宜大學 資科系 劉家碩 2023 </h1>
+			</td>
+		</tr>
+		
+	</table>
+</div>
+</body>
+</html>
+
+<!檔名 web-hw1 add a readme file create、settings pages branch_main_save、出現網址，檔案上傳_ADD_FILE、網頁檔和外部資源都要上傳_圖片、commet changes、setting、取得網址、可以瀏覽>
+<!上傳最後的網址，自己的 檔案名稱_首頁檔 要叫index.html>
